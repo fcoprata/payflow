@@ -30,7 +30,7 @@ class _LoginPageState extends State<LoginPage> {
               color: AppColors.primary,
             ),
             Positioned(
-              top: 40,
+              top: 30,
               left: 0,
               right: 0,
               child: Image.asset(
@@ -49,8 +49,7 @@ class _LoginPageState extends State<LoginPage> {
                 children: [
                   Image.asset(AppImages.logomini),
                   Padding(
-                    padding:
-                        const EdgeInsets.only(top: 30, left: 70, right: 70),
+                    padding: const EdgeInsets.only(left: 70, right: 70),
                     child: Text(
                       "Organize seus boletos em um só lugar",
                       textAlign: TextAlign.center,
@@ -59,7 +58,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   Padding(
                     padding:
-                        const EdgeInsets.only(left: 40, right: 40, top: 40),
+                        const EdgeInsets.only(left: 40, right: 40, top: 30),
                     child: SocialLoginButton(
                       onTap: (() {
                         print("clicou");
